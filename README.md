@@ -19,5 +19,7 @@
 yphoto.random(function(photoes){
     // do something...
     // photoes[0] --> 第一张图片的URL
+}, function(err){
+         console.log('Ynu Photo Error: '+ err);
 });
 ```
