@@ -23,3 +23,11 @@ yphoto.random(function(photoes){
          console.log('Ynu Photo Error: '+ err);
 });
 ```
+
+### 读取最新图片
+
+`yphoto.newest(done, fail);`
+
+### 读取最受欢迎图片
+
+`yphoto.popular(done, fail);`
